@@ -26,7 +26,7 @@ public class IngredientTest {
     }
 
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "Вид ингредиента: {0}, название ингредиента: {1}, цена: {2}")
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
                 {SAUCE, "hot sauce", 100},

@@ -21,7 +21,7 @@ public class IngredientTypeTest {
         this.expectedOrdinal = expectedOrdinal;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "Тип: {0}, Ожидаемое имя: {1}, Ожидаемый порядковый номер: {2}")
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][] {
                 { IngredientType.SAUCE, "SAUCE", 0 },
