@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="IngredientTest" time="0.006" tests="18" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="IngredientTest" time="0.011" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Project_practicum\Diplom\Diplom_1\target\test-classes;C:\Project_practicum\Diplom\Diplom_1\target\classes;C:\Users\Виктория\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Виктория\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Виктория\.m2\repository\org\mockito\mockito-core\3.12.4\mockito-core-3.12.4.jar;C:\Users\Виктория\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.13\byte-buddy-agent-1.11.13.jar;C:\Users\Виктория\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Виктория\.m2\repository\net\bytebuddy\byte-buddy\1.11.16\byte-buddy-1.11.16.jar;"/>
+    <property name="java.class.path" value="C:\Diplom2\Diplom_1\target\test-classes;C:\Diplom2\Diplom_1\target\classes;C:\Users\Виктория\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Виктория\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Виктория\.m2\repository\org\mockito\mockito-core\3.12.4\mockito-core-3.12.4.jar;C:\Users\Виктория\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.13\byte-buddy-agent-1.11.13.jar;C:\Users\Виктория\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Виктория\.m2\repository\net\bytebuddy\byte-buddy\1.11.16\byte-buddy-1.11.16.jar;C:\Users\Виктория\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.24_8\bin"/>
-    <property name="sun.java.command" value="C:\Users\Виктория\AppData\Local\Temp\surefire9333302550403287963\surefirebooter-20250203230205255_3.jar C:\Users\Виктория\AppData\Local\Temp\surefire9333302550403287963 2025-02-03T23-02-04_608-jvmRun1 surefire-20250203230205255_1tmp surefire_0-20250203230205255_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Виктория\AppData\Local\Temp\surefire14233986851918588048\surefirebooter-20250214203231492_3.jar C:\Users\Виктория\AppData\Local\Temp\surefire14233986851918588048 2025-02-14T20-32-30_746-jvmRun1 surefire-20250214203231492_1tmp surefire_0-20250214203231492_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Project_practicum\Diplom\Diplom_1\target\test-classes;C:\Project_practicum\Diplom\Diplom_1\target\classes;C:\Users\Виктория\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Виктория\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Виктория\.m2\repository\org\mockito\mockito-core\3.12.4\mockito-core-3.12.4.jar;C:\Users\Виктория\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.13\byte-buddy-agent-1.11.13.jar;C:\Users\Виктория\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Виктория\.m2\repository\net\bytebuddy\byte-buddy\1.11.16\byte-buddy-1.11.16.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Diplom2\Diplom_1\target\test-classes;C:\Diplom2\Diplom_1\target\classes;C:\Users\Виктория\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Виктория\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Виктория\.m2\repository\org\mockito\mockito-core\3.12.4\mockito-core-3.12.4.jar;C:\Users\Виктория\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.13\byte-buddy-agent-1.11.13.jar;C:\Users\Виктория\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Виктория\.m2\repository\net\bytebuddy\byte-buddy\1.11.16\byte-buddy-1.11.16.jar;C:\Users\Виктория\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Виктория"/>
     <property name="user.language" value="ru"/>
@@ -27,13 +27,13 @@
     <property name="java.version.date" value="2024-07-16"/>
     <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.24_8"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Project_practicum\Diplom\Diplom_1"/>
+    <property name="basedir" value="C:\Diplom2\Diplom_1"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Виктория\AppData\Local\Temp\surefire9333302550403287963\surefirebooter-20250203230205255_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Виктория\AppData\Local\Temp\surefire14233986851918588048\surefirebooter-20250214203231492_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.24+8-LTS"/>
@@ -49,7 +49,7 @@
     <property name="java.io.tmpdir" value="C:\Users\ADCC~1\AppData\Local\Temp\"/>
     <property name="idea.version" value="2024.2.3"/>
     <property name="java.version" value="11.0.24"/>
-    <property name="user.dir" value="C:\Project_practicum\Diplom\Diplom_1"/>
+    <property name="user.dir" value="C:\Diplom2\Diplom_1"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -62,22 +62,22 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testGetPrice[0]" classname="IngredientTest" time="0"/>
-  <testcase name="testGetName[0]" classname="IngredientTest" time="0"/>
-  <testcase name="testGetType[0]" classname="IngredientTest" time="0"/>
-  <testcase name="testGetPrice[1]" classname="IngredientTest" time="0"/>
-  <testcase name="testGetName[1]" classname="IngredientTest" time="0"/>
-  <testcase name="testGetType[1]" classname="IngredientTest" time="0"/>
-  <testcase name="testGetPrice[2]" classname="IngredientTest" time="0"/>
-  <testcase name="testGetName[2]" classname="IngredientTest" time="0"/>
-  <testcase name="testGetType[2]" classname="IngredientTest" time="0.001"/>
-  <testcase name="testGetPrice[3]" classname="IngredientTest" time="0"/>
-  <testcase name="testGetName[3]" classname="IngredientTest" time="0"/>
-  <testcase name="testGetType[3]" classname="IngredientTest" time="0"/>
-  <testcase name="testGetPrice[4]" classname="IngredientTest" time="0"/>
-  <testcase name="testGetName[4]" classname="IngredientTest" time="0"/>
-  <testcase name="testGetType[4]" classname="IngredientTest" time="0"/>
-  <testcase name="testGetPrice[5]" classname="IngredientTest" time="0.001"/>
-  <testcase name="testGetName[5]" classname="IngredientTest" time="0"/>
-  <testcase name="testGetType[5]" classname="IngredientTest" time="0"/>
+  <testcase name="testGetPrice[Вид ингредиента: SAUCE, название ингредиента: hot sauce, цена: 100]" classname="IngredientTest" time="0"/>
+  <testcase name="testGetName[Вид ингредиента: SAUCE, название ингредиента: hot sauce, цена: 100]" classname="IngredientTest" time="0"/>
+  <testcase name="testGetType[Вид ингредиента: SAUCE, название ингредиента: hot sauce, цена: 100]" classname="IngredientTest" time="0"/>
+  <testcase name="testGetPrice[Вид ингредиента: SAUCE, название ингредиента: sour cream, цена: 200]" classname="IngredientTest" time="0"/>
+  <testcase name="testGetName[Вид ингредиента: SAUCE, название ингредиента: sour cream, цена: 200]" classname="IngredientTest" time="0"/>
+  <testcase name="testGetType[Вид ингредиента: SAUCE, название ингредиента: sour cream, цена: 200]" classname="IngredientTest" time="0"/>
+  <testcase name="testGetPrice[Вид ингредиента: SAUCE, название ингредиента: chili sauce, цена: 300]" classname="IngredientTest" time="0"/>
+  <testcase name="testGetName[Вид ингредиента: SAUCE, название ингредиента: chili sauce, цена: 300]" classname="IngredientTest" time="0"/>
+  <testcase name="testGetType[Вид ингредиента: SAUCE, название ингредиента: chili sauce, цена: 300]" classname="IngredientTest" time="0"/>
+  <testcase name="testGetPrice[Вид ингредиента: FILLING, название ингредиента: cutlet, цена: 100]" classname="IngredientTest" time="0"/>
+  <testcase name="testGetName[Вид ингредиента: FILLING, название ингредиента: cutlet, цена: 100]" classname="IngredientTest" time="0.002"/>
+  <testcase name="testGetType[Вид ингредиента: FILLING, название ингредиента: cutlet, цена: 100]" classname="IngredientTest" time="0"/>
+  <testcase name="testGetPrice[Вид ингредиента: FILLING, название ингредиента: dinosaur, цена: 200]" classname="IngredientTest" time="0.001"/>
+  <testcase name="testGetName[Вид ингредиента: FILLING, название ингредиента: dinosaur, цена: 200]" classname="IngredientTest" time="0"/>
+  <testcase name="testGetType[Вид ингредиента: FILLING, название ингредиента: dinosaur, цена: 200]" classname="IngredientTest" time="0"/>
+  <testcase name="testGetPrice[Вид ингредиента: FILLING, название ингредиента: sausage, цена: 300]" classname="IngredientTest" time="0"/>
+  <testcase name="testGetName[Вид ингредиента: FILLING, название ингредиента: sausage, цена: 300]" classname="IngredientTest" time="0.001"/>
+  <testcase name="testGetType[Вид ингредиента: FILLING, название ингредиента: sausage, цена: 300]" classname="IngredientTest" time="0"/>
 </testsuite>
