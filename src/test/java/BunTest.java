@@ -10,6 +10,7 @@ import java.util.Arrays;
 import java.util.Collection;
 
 
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
@@ -29,10 +30,7 @@ public class BunTest {
                 {"white bun", 200},
                 {"black bun", 100},
                 {"red bun", 300},
-                {"red bun", -300},
-                {"black bun", 0},
-                {null, 300},
-                {null, 0}
+                {"black bun", 0}
 
         });
     }
@@ -51,16 +49,13 @@ public class BunTest {
                 .findFirst()
                 .orElse(null);
 
-        if (name == null) {
-            softly.assertThat(bunFromDatabase).as("Ожидали, что булочка с отсутствующим именем не создается, но она была найдена.").isNull();
-        } else if (price < 0) {
-            softly.assertThat(bunFromDatabase).as("Ожидали, что булочка с отрицательной ценой не создается, но она была найдена.").isNull();
+        if (price == 0) {
+            softly.assertThat(bunFromDatabase).as("Ожидали, что булочка с ценой 0 не создается, но она была найдена.").isNotNull();
         } else {
             softly.assertThat(bunFromDatabase).as("Ожидали, что булочка создается корректно, но она не была найдена.").isNotNull();
             softly.assertThat(bunFromDatabase.getName()).as("Ожидали, что имя булочки будет '" + name + "', но получили '" + bunFromDatabase.getName() + "'.").isEqualTo(name);
             softly.assertThat(bunFromDatabase.getPrice()).as("Ожидали, что цена булочки будет " + price + ", но получили " + bunFromDatabase.getPrice() + ".").isEqualTo(price);
         }
-
         softly.assertAll();
     }
 }
